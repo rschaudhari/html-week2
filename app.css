@@ -1,18 +1,38 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
 *{
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
+    font-family: "roboto";
 }
 body{
     background-size: cover;
+    background-image: url("aeroplane.jfif");
+    background-position: center;
 }
+ 
 section.hero{
-    background-color:lavender;
     margin-top: 6rem;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 20px;
     box-sizing: border-box;
+    
+
+}
+section.hero .input{
+    box-sizing: border-box;
+    background-color: white;
+    text-decoration: none;
+    align-content: center;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+input{
+    width: 150px;
+    height: 40px;
+    text-decoration: none;
+    border: none;
+    border-radius: 2rem;
+    margin: 30px;
 }
 h2{
     text-align: center;
