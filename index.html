@@ -6,29 +6,38 @@
     <title>Bluebus</title>
     <link rel="stylesheet" href="app.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-</head>
-<body>
-    <h2>
-        Book Domestic  and International Flights
-    </h2>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head> 
+  <body>
+
+    <div class="welcome">
+        <h1>
+            Domestic And International Flights
+        </h1>
+        <p>BOOKINGS AVAILABLE</p>
+
+    </div>
       <section class="hero container">
-
             <div class="input">
-                <input type="text" placeholder="from">
-                <svg width="2em" height="1.2em" viewBox="0 0 16 16" class="bi bi-arrow-right-square-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                  <path fill-rule="evenodd" d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2zm2.5 8.5a.5.5 0 0 1 0-1h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5z"/>
-                </svg>
+                <i class="fa fa-map-marker" aria-hidden="true"></i>
+                <input class="input-field" type="text" placeholder="from">
+
+                <i class="fa fa-paper-plane" aria-hidden="true"></i>
                 <input type="text" placeholder="Destination">
-              
-                <label for="date">Departure:</label>
-                <input type="date" name="date" id="date">
-                <button class=" button primary btn btn-warning">Search</button>
-            </div>         
-        </section>
-        <section>
 
-        </section>
+                <i class="fa fa-calendar-plus-o" aria-hidden="true"></i>
+                <input class="input-field" type="text" placeholder="Departure"
+                onfocus="(this.type='date')">
 
+                 <i class="fa fa-calendar-plus-o" aria-hidden="true"></i>
+                <input class="input-field" type="text" placeholder="Return"
+                onfocus="(this.type='date')">                 
+            </div>
+
+            <button class="btn"type="submit" ><label for="button">SEARCH</label></button>
+            
+            
+        </section>
     </div>    
 </body>
 </html>
